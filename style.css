@@ -1,0 +1,11 @@
+#head {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+#sidebar {
+    padding: 3%;
+    background-color: rgb(212, 212, 212);
+}
