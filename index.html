@@ -20,12 +20,12 @@
             <div class="card col-sm-4" id ="sidebar">
                 <div class="card-body">
                     <div class="ui-widget">
-                        <label for="birds">Search: </label>
-                        <input id="birds">
+                        <label>Search: </label>
+                        <input id="city_search">
                       </div>  
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <ul class="list-group list-group-flush">
+                        <ul class="list-group list-group-flush" id = 'city'>
                           <li class="list-group-item">An item</li>
                           <li class="list-group-item">A second item</li>
                           <li class="list-group-item">A third item</li>
@@ -40,13 +40,13 @@
               </div>
           </div>
           <div class="col-sm">
-            <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron jumbotron-fluid" id = ''>
                 <div class="container">
-                  <h1 class="display-4">City Name</h1>
-                  <p class="lead">Temperature:</p>
-                  <p class="lead">Humidity:</p>
-                  <p class="lead">Wind Speed:</p>
-                  <p class="lead">UV Index:</p>
+                  <h1 class="display-4" id ="city_name">City Name</h1>
+                  <p class="lead" id = 'temperature'>Temperature:</p>
+                  <p class="lead"id = 'humidity'>Humidity:</p>
+                  <p class="lead"id ='wind_speed'>Wind Speed:</p>
+                  <p class="lead" id ='uv_in'>UV Index:</p>
                 </div>
               </div>
           </div>
@@ -97,6 +97,7 @@
         </div>
       </div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src = 'javascript.js'></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </html>
