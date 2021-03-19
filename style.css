@@ -9,3 +9,7 @@
     padding: 3%;
     background-color: rgb(212, 212, 212);
 }
+
+.card-title {
+    font-size: 95%;
+}
